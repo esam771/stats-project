@@ -3,11 +3,7 @@ public static void solves()
 	
 		DecimalFormat decfor = new DecimalFormat("##.00");
 		
-		double meanTime = 0;
-		double totalTime = 0;
-		double totalDeviation = 0;
-		double stdDeviation = 0;
-		
+		double meanTime = 0, totalTime = 0, totalDeviation = 0, stdDeviation = 0;
 		double[] solves = new double[223];
 		
 		for(int i = 0; i < 223; i++)
